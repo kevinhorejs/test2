@@ -11,13 +11,13 @@ class BMICalculatorTest {
 
     String name = "Kevin";
     String nachname = "Horejs";
-    int höhe = 175;
+    int höhe = 176;
     double gewicht = 90.0;
     char gender = 'm';
 
     String your_name = "Melanie";
     String your_nachname = "Horejs";
-    int your_höhe = 171;
+    int your_höhe = 165;
     double your_gewicht = 70.0;
     char your_gender = 'w';
 
@@ -52,8 +52,8 @@ class BMICalculatorTest {
     }
     @Test
     void testCalculateBMI(){
-        Assertions.assertEquals(29.39, myBMI.calculateBMI());
-        Assertions.assertEquals(23.94,yourBMI.calculateBMI());
+        Assertions.assertEquals(29.05, myBMI.calculateBMI());
+        Assertions.assertEquals(25.71,yourBMI.calculateBMI());
     }
 
 
