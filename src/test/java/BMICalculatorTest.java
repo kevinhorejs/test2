@@ -56,5 +56,9 @@ class BMICalculatorTest {
         Assertions.assertEquals(25.71,yourBMI.calculateBMI());
     }
 
-
+    @Test
+    void testCalculateBMICategory(){
+        Assertions.assertEquals(1, myBMI.calculateBMICategory());
+        Assertions.assertEquals(1,yourBMI.calculateBMICategory());
+    }
 }
