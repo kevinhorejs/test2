@@ -61,4 +61,10 @@ class BMICalculatorTest {
         Assertions.assertEquals(1, myBMI.calculateBMICategory());
         Assertions.assertEquals(1,yourBMI.calculateBMICategory());
     }
+    @Test
+    void testgetBMICategoryName(){
+        Assertions.assertEquals("Übergewicht", myBMI.getBMICategoryName());
+        Assertions.assertEquals("Übergewicht",yourBMI.getBMICategoryName());
+    }
+
 }
