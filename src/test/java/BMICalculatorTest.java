@@ -50,6 +50,11 @@ class BMICalculatorTest {
         Assertions.assertEquals(your_gewicht,yourBMI.getBodyWeight());
         Assertions.assertEquals(your_gender,yourBMI.getGender());
     }
+    @Test
+    void testCalculateBMI(){
+        Assertions.assertEquals(29.39, myBMI.calculateBMI());
+        Assertions.assertEquals(23.94,yourBMI.calculateBMI());
+    }
 
 
 }
