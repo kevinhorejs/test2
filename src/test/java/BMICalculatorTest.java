@@ -17,7 +17,7 @@ class BMICalculatorTest {
 
     String your_name = "Melanie";
     String your_nachname = "Horejs";
-    int your_höhe = 170;
+    int your_höhe = 171;
     double your_gewicht = 70.0;
     char your_gender = 'w';
 
